@@ -1,6 +1,6 @@
 class Key {
     private signature: number = Math.random();
-    getSignature() {
+     getSignature(): number {
       return this.signature;
     }
   }
